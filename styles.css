@@ -25,7 +25,7 @@ h1 {
     background: #121212;
     display: flex;
     border-radius: 8px;
-    padding: 16px 0px 0px 16px;
+    padding: 8px 0px 0px 8px;
 }
 
 .sidebar_navigation .logo img {
@@ -34,17 +34,21 @@ h1 {
 
 .sidebar nav ul {
     margin-top: 20px;
-    padding: 0px 20px 10px 20px;
+    padding: 0px 10px 10px 10px;
 }
 
 .sidebar ul li {
-    padding: 10px 0px;
+    padding: 12px 0px;
     font-family: "DM-sans", sans-serif;
 }
 
 .sidebar nav ul li a{
     color: #b3b3b3;
     text-decoration: none;
-    font-weight: 600px;
-    font-size: 14px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.sidebar nav ul li :hover{
+    color: #fff;
 }
