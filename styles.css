@@ -52,3 +52,15 @@ h1 {
 .sidebar nav ul li :hover{
     color: #fff;
 }
+
+.sidebar_library {
+    position: absolute;
+    top: 185px;
+    left: 0px;
+    bottom: 0px;
+    padding: 12px;
+    width: 300px;
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0px 0px 16px;
+}
