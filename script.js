@@ -7,7 +7,7 @@ function requestApi(searchTerm) {
     fetch(url)
         .then((response) => response.json())
         .then((result) => displayResults(result))
-}
+};
 
 function displayResults(result) {
     resultPlaylist.classList.add("hidden")
@@ -20,7 +20,7 @@ function displayResults(result) {
     });
 
     resultArtist.classList.remove('hidden');
-}
+};
 
 document.addEventListener('input', function () {
     const searchTerm = searchInput.value.toLowerCase();
@@ -31,4 +31,4 @@ document.addEventListener('input', function () {
     }
     
     requestApi(searchTerm);
-})
+});
